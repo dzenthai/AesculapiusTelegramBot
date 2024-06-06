@@ -1,6 +1,6 @@
 # AesculapiusTelegramBot
 
-AesculapiusTelegramBot is a Telegram bot designed to assist users with health-related questions. It leverages ChatGPT under the hood and is built using Java, Spring Boot, Redis, and Docker.
+AesculapiusTelegramBot is a Telegram bot designed to assist users with health-related questions. It leverages ChatGPT under the hood and is built using Java, Spring Boot, and Redis.
 
 ## Features
 
@@ -15,7 +15,6 @@ AesculapiusTelegramBot is a Telegram bot designed to assist users with health-re
 - **Java**: The primary programming language.
 - **Spring Boot**: Used for API key and Telegram token management, as well as for connecting to Redis.
 - **Redis**: Stores conversation context to maintain continuity in the dialogue.
-- **Docker**: Facilitates containerization for easy deployment.
 - **Lombok**: Used for boilerplate code reduction (e.g., getters, setters).
 - **Telegram Bots API**: Used for interaction with Telegram.
 
@@ -24,7 +23,6 @@ AesculapiusTelegramBot is a Telegram bot designed to assist users with health-re
 ### Prerequisites
 
 - Java 11 or higher
-- Docker
 - Redis
 
 ### Steps
@@ -48,10 +46,9 @@ AesculapiusTelegramBot is a Telegram bot designed to assist users with health-re
     mvn clean install
     ```
 
-4. Run the application using Docker:
+4. Run the application:
     ```bash
-    create Dockerfile
-    docker-compose up --build
+    java -jar target/AesculapiusTelegramBot.jar
     ```
 
 ## Usage
