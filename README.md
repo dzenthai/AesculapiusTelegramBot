@@ -50,6 +50,7 @@ AesculapiusTelegramBot is a Telegram bot designed to assist users with health-re
 
 4. Run the application using Docker:
     ```bash
+    create Dockerfile
     docker-compose up --build
     ```
 
