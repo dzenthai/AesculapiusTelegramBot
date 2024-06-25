@@ -1,4 +1,4 @@
-# AesculapiusTelegramBot
+# Aesculapius-Telegram-Bot
 
 AesculapiusTelegramBot is a Telegram bot designed to assist users with health-related questions. It leverages ChatGPT under the hood and is built using Java, Spring Boot, and Redis.
 
